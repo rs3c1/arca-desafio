@@ -1,3 +1,5 @@
+#Use ruby automation.rb to run this script
+
 require 'selenium-webdriver'
 driver = Selenium::WebDriver.for :firefox
 driver.get('https://demodirectory.com.br/')
